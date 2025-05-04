@@ -1,0 +1,9 @@
+Flask==2.0.1
+PyQt5==5.15.4
+Pillow==8.4.0
+requests==2.26.0
+logging==0.5.1.2
+pygame==2.1.2
+playsound==1.2.2
+plyer==2.1.0
+TikTokLive==4.0.0
