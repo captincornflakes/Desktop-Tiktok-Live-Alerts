@@ -15,6 +15,9 @@ TikTok Live Checker
 │   ├── helpers.py                 # Utility functions for common tasks
 │   ├── account_utils.py           # Functions for managing TikTok accounts
 │   └── sound_handler.py           # Functions for playing sound notifications
+├── media                          # Folder for storing screenshots and media
+│   ├── main_window.png            # Screenshot of the main window
+│   ├── account_manager.png        # Screenshot of the account manager window
 ├── accounts.json                  # JSON file for storing TikTok account data
 ├── requirements.txt               # Lists project dependencies
 ├── README.md                      # Documentation for the project
@@ -49,6 +52,13 @@ TikTok Live Checker
 - **Live Status Checker**: Automatically checks if TikTok accounts are live at regular intervals.
 - **Notifications**: Plays a sound and shows a desktop notification when an account goes live.
 - **Logging**: Logs all events and errors to `logs/app.log`.
+
+## Screenshots
+### Main Window
+![Main Window](media/main_window.png)
+
+### Account Manager
+![Account Manager](media/account_manager.png)
 
 ## Contributing
 Contributions are welcome! Please submit a pull request or open an issue for any suggestions or improvements.
